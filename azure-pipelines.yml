@@ -3,6 +3,7 @@ trigger:
 resources:
 - repo: self
 variables:
+ dockerRegistryServiceConnection: 'a74a987a-87e2-486f-92af-7baf221c7033'
   tag: '$(Build.BuildId)'
 stages:
 - stage: Build
